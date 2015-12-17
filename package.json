@@ -1,0 +1,33 @@
+{
+  "name": "egghead-reactfundamentals",
+  "version": "0.0.1",
+  "description": "A sample react with es6 app from egghead course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --host $IP --port $PORT  --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v3rt1go/egghead-reactfundamentals.git"
+  },
+  "author": "Alex Griciuc <agriciuc@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v3rt1go/egghead-reactfundamentals/issues"
+  },
+  "homepage": "https://github.com/v3rt1go/egghead-reactfundamentals#readme",
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
