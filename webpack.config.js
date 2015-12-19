@@ -6,8 +6,7 @@ module.exports = {
     },
     devServer: {
         inline: true, // Reload on the fly
-        port: process.env.PORT,
-        ip: process.env.IP
+        port: 3000
     },
     module: {
         loaders: [
