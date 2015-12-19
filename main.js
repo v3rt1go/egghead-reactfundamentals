@@ -7,6 +7,7 @@ import Lifecycle from './ComponentLifecycle.js';
 import HigherOrder from './HigherOrderComponents.js';
 import Composable from './ComposableComponents.js';
 import Dynamic from './DynamicComponents.js';
+import Transpiler from './Transpiler.js';
 
 ReactDOM.render(
   // Passing values to components is done with the props obj. In jsx it looks
@@ -18,3 +19,4 @@ ReactDOM.render(<Lifecycle />, document.getElementById('lifecycle'));
 ReactDOM.render(<HigherOrder />, document.getElementById('higherorder'));
 ReactDOM.render(<Composable />, document.getElementById('composable'));
 ReactDOM.render(<Dynamic />, document.getElementById('dynamic'));
+ReactDOM.render(<Transpiler />, document.getElementById('transpiler'));
